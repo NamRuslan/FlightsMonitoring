@@ -1,0 +1,28 @@
+x.rapid.api.key: "7ffb551733msh04ec1d34cf6eb6ap145455jsnb9bb7ef3a64a"
+
+spring:
+  datasource:
+    url:
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: never
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: namruslantesting@gmail.com
+    password: NamRuslan1432
+#    other properties
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+#          TLS, port 587
+          starttls:
+            enable: true
