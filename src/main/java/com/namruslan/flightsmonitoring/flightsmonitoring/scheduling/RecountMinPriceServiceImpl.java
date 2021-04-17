@@ -5,12 +5,14 @@ import com.namruslan.flightsmonitoring.flightsmonitoring.dtos.FlightPricesDto;
 import com.namruslan.flightsmonitoring.flightsmonitoring.service.EmailNotifierService;
 import com.namruslan.flightsmonitoring.flightsmonitoring.service.FlightPriceService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 
 /**
  * {@inheritDoc}
  */
+@Service
 public class RecountMinPriceServiceImpl implements RecountMinPriceService {
 
     @Autowired

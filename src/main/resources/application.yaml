@@ -2,7 +2,7 @@ x.rapid.api.key: "7ffb551733msh04ec1d34cf6eb6ap145455jsnb9bb7ef3a64a"
 
 spring:
   datasource:
-    url: jdbc:postgersql://ec2-54-220-35-19.eu-west-1.compute.amazonaws.com:5432/d1a47b3h1f462g?user=mqygzqdvexisyv&password=74907dbe9479cdcc2422db9ca23d3965cc642b1d10f03fa4b753c09cecdaa651
+    url: jdbc:postgresql://ec2-54-220-35-19.eu-west-1.compute.amazonaws.com:5432/d1a47b3h1f462g?user=mqygzqdvexisyv&password=74907dbe9479cdcc2422db9ca23d3965cc642b1d10f03fa4b753c09cecdaa651
     driver-class-name: org.postgresql.Driver
     initialization-mode: never
   jpa:
