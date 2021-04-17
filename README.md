@@ -3,7 +3,7 @@ Application for monitoring the lowest prices on flights.
 Based on SkyScanner API.
 
 Including features:
-- Subscriptions for definite flight;
+- Subscriptions for definite flights;
 - CRUD operations with subscriptions;
 - Scheduled min price recounting (every 10 min);
 - Email notification for subscribers.
